@@ -10,12 +10,12 @@ def is_enabled(value, default):
     else:
         return default
 
-API_ID = int(environ.get("API_ID", ""))
-API_HASH = environ.get("API_HASH", "")
+API_ID = int(environ.get("API_ID", "22215080"))
+API_HASH = environ.get("API_HASH", "6ab80ad5d78fee18fdd9b909edfbafd5")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002355909549"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002344280987"))
 ADMINS = int(environ.get("ADMINS", "7841292070"))
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://meenakanhaiyalal638:files@files.8ko8k.mongodb.net/?retryWrites=true&w=majority&appName=files")
 DB_NAME = environ.get("DB_NAME", "ChatGPT")
-OPENAI_API = environ.get("OPENAI_API", "")
+OPENAI_API = environ.get("OPENAI_API", "AIzaSyBHT9Tv3pyB0xwOKJzGvv1MYi6bvpSwRtA")
 AI = is_enabled((environ.get("AI","True")), False)
